@@ -15,7 +15,7 @@ class Option(Button):
         if self.hovered:
             if key == 'left mouse down':
                 popup_text = Text("Hello, Im gay!")
-                destroy(popup_text, delay=.3)
+                destroy(popup_text, delay=2)
 
 
 demo_button = Option()
